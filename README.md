@@ -7,7 +7,7 @@ This library supports Span traces of [Symfony HttpKernel](https://github.com/sym
 1) Install via [composer](https://getcomposer.org/)
 
     ```shell script
-    composer require pccomponentes/apm-predis-client
+    composer require pccomponentes/apm-predis
     ```
 
 ## Usage
