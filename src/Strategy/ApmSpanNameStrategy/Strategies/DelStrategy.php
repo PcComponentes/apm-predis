@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy\Strategies;
+namespace PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy\Strategies;
 
-use PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy\ApmSpanNameStrategy;
+use PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy\ApmSpanNameStrategy;
 
 class DelStrategy implements ApmSpanNameStrategy
 {

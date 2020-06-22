@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace PcComponentes\ApmPredisClient;
+namespace PcComponentes\ApmPredis;
 
 use Exception;
-use PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy\ApmSpanNameContext;
-use PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy\ApmStatementContext;
+use PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy\ApmSpanNameContext;
+use PcComponentes\ApmPredis\Strategy\ApmStatementStrategy\ApmStatementContext;
 use Predis\ClientInterface;
 use Predis\Command\CommandInterface;
 use ZoiloMora\ElasticAPM\ElasticApmTracer;
@@ -162,7 +162,7 @@ use ZoiloMora\ElasticAPM\Events\Span\Span;
  * @method array georadius($key, $longitude, $latitude, $radius, $unit, array $options = null)
  * @method array georadiusbymember($key, $member, $radius, $unit, array $options = null)
  */
-class ApmPredisClient implements ClientInterface
+class ApmPredis implements ClientInterface
 {
     private const SPAN_TYPE = 'Cache';
     private const SPAN_SUBTYPE = 'redis';

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy\Strategies;
+namespace PcComponentes\ApmPredis\Strategy\ApmStatementStrategy\Strategies;
 
-use PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy\ApmStatementStrategy;
+use PcComponentes\ApmPredis\Strategy\ApmStatementStrategy\ApmStatementStrategy;
 
 class DefaultStrategy implements ApmStatementStrategy
 {

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy;
+namespace PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy;
 
-use PcComponentes\ApmPredisClient\ApmAcceptedMethods;
-use PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy\Strategies\DefaultStrategy;
-use PcComponentes\ApmPredisClient\Strategy\ApmSpanNameStrategy\Strategies\DelStrategy;
+use PcComponentes\ApmPredis\ApmAcceptedMethods;
+use PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy\Strategies\DefaultStrategy;
+use PcComponentes\ApmPredis\Strategy\ApmSpanNameStrategy\Strategies\DelStrategy;
 
 class ApmSpanNameContext
 {

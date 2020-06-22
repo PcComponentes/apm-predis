@@ -1,5 +1,5 @@
 {
-  "name": "pccomponentes/apm-predis-client",
+  "name": "pccomponentes/apm-predis",
   "description": "Elastic APM for Predis Client",
   "license": "MIT",
   "type": "library",
@@ -15,7 +15,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "PcComponentes\\ApmPredisClient\\": "src/"
+      "PcComponentes\\ApmPredis\\": "src/"
     }
   },
   "require": {

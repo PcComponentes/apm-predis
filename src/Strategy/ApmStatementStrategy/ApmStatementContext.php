@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy;
+namespace PcComponentes\ApmPredis\Strategy\ApmStatementStrategy;
 
-use PcComponentes\ApmPredisClient\ApmAcceptedMethods;
-use PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy\Strategies\DefaultStrategy;
-use PcComponentes\ApmPredisClient\Strategy\ApmStatementStrategy\Strategies\DelStrategy;
+use PcComponentes\ApmPredis\ApmAcceptedMethods;
+use PcComponentes\ApmPredis\Strategy\ApmStatementStrategy\Strategies\DefaultStrategy;
+use PcComponentes\ApmPredis\Strategy\ApmStatementStrategy\Strategies\DelStrategy;
 
 class ApmStatementContext
 {
