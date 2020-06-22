@@ -17,11 +17,9 @@ In all cases, an already created instance of [ElasticApmTracer](https://github.c
 ### Service Container (Symfony)
 
 ```yaml
-amp.http_client:
-    class: PcComponentes\RuleStorm\Infrastructure\TraceableApmHttpClient
-    arguments: 
-        $client: '@http_client'
-        $elasticApmTracer: '@apm.tracer' # \ZoiloMora\ElasticAPM\ElasticApmTracer instance.
+apm.predis_client:
+    class: PcComponentes\RuleStorm\Domain\Service\ApmPredis
+    arguments: ['@service.cache.redis', '@apm.tracer', 'demo']
 ```
 
 ## License
