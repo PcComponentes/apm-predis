@@ -18,7 +18,7 @@ In all cases, an already created instance of [ElasticApmTracer](https://github.c
 
 ```yaml
 apm.predis_client:
-    class: PcComponentes\RuleStorm\Domain\Service\ApmPredis
+    class: PcComponentes\ApmPredisClient\ApmPredisClient
     arguments: ['@service.cache.redis', '@apm.tracer', 'demo']
 ```
 

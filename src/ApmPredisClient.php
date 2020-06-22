@@ -162,7 +162,7 @@ use ZoiloMora\ElasticAPM\Events\Span\Span;
  * @method array georadius($key, $longitude, $latitude, $radius, $unit, array $options = null)
  * @method array georadiusbymember($key, $member, $radius, $unit, array $options = null)
  */
-class ApmPredis implements ClientInterface
+class ApmPredisClient implements ClientInterface
 {
     private const SPAN_TYPE = 'Cache';
     private const SPAN_SUBTYPE = 'redis';
