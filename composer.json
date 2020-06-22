@@ -11,11 +11,11 @@
     {
       "name": "Chechu García",
       "email": "franciscoj.morote@pccomponentes.com"
-    },
-    "PcComponentes\\ApmPredisClient\\": "src/"
+    }
   ],
   "autoload": {
     "psr-4": {
+      "PcComponentes\\ApmPredisClient\\": "src/"
     }
   },
   "require": {
