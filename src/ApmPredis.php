@@ -185,7 +185,7 @@ class ApmPredis implements ClientInterface
 
     public function __call($commandID, $arguments)
     {
-        if (ApmAcceptedMethods::acceptedMethods($commandID)) {
+        if (ApmAcceptedMethods::acceptedMethods($commandID) && $this->elasticApmTracer->active()) {
             return $this->callWithApm($commandID, $arguments);
         }
 
